@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>CaptionHover.js jQuer Plugin Demos</title>
+		<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Raleway:400,800,300' rel='stylesheet' type='text/css'>
+		<link href="css/normalize.css" rel="stylesheet" type='text/css' />
+		<link href="css/main.css" rel="stylesheet" type='text/css' />
+		<link href="css/demo.css" rel="stylesheet" type='text/css' />
+	</head>
+	<body>
+	<div class="container">
+
+
+			<div class="content">
+
+				<div class="grid" style="padding-left:300px;padding-top:150px;">
+					<figure class="tile-15">
+						<img src="img/4.jpg" class="img-rounded"/>
+						<figcaption>
+							<h2 style="font-style: italic;"><span>ASHISH DURGUDE</span></h2>
+							<p style="font-style: italic;"><span>WEB Designer</span></p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					<figure class="tile-15 last">
+						<img src="img/5.jpg" class="img-rounded" />
+						<figcaption>
+							<h2 style="font-style: italic;"> <span>ASHISH DURGUDE</span></h2>
+							<p style="font-style: italic;">WEB Designer</p>
+							<a href="#">View more</a>
+						</figcaption>			
+					</figure>
+					
+				</div>
+				
+			</div>
+	</div>
+		
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+	<script src="js/captionHover.dev.js"></script>
+
+	<script>
+		$(function() {
+			$('.tile-15').captionHover({
+				fx: 'milo'
+			});
+		});
+	</script>
+
+	</body>
+</html>
